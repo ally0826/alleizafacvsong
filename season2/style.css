@@ -1,0 +1,32 @@
+body{ background-color:black;
+    background: url('meow.gif') no-repeat center center fixed;
+background-size: cover}
+    
+    h1,h2{ color : white;
+        text-align: center;
+    font-family: 'Book Antiqua';}
+    
+    
+p{color : white;
+    text-align: center;
+    font-family: 'Book Antiqua';
+}
+
+    .center-audio {
+        text-align: center;
+    }
+.pohh {
+    justify-content: center;
+    display: flex;
+}
+
+.pohh img{
+    width: 10%;
+    height:100%;
+    object-fit: cover;
+    transition: all ease-in-out 0.5s;
+}
+
+.pohh img:hover{
+    width:25%;
+}
